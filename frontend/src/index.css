@@ -1,0 +1,618 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&family=Merriweather&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  font-family: "Mukta", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  font-family: "Mukta", sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main header {
+  width: 100%;
+  height: 10vh;
+  background: #242526;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  padding: 0 3em;
+}
+
+main header .color {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main header .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+main header .logo a h1 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+main header .logo a p {
+  font-size: 12px;
+}
+
+main header .logo .theme {
+  margin-left: 3em;
+}
+
+main header .logo .theme p {
+  width: 100px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #fb9300;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+main header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main header .menu li {
+  list-style-type: none;
+  padding: 0 0 0 2em;
+}
+
+main header .menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+main header .menu .active {
+  color: #39a2db;
+}
+
+main .container {
+  width: 100%;
+  height: auto;
+  padding: 5em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .container .content .title h1 {
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+}
+
+main .container .content .enter .user {
+  padding: 0.5em 0;
+}
+
+main .container .content .enter .user .username {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .content .enter .user .username input {
+  width: 190px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0 0.5em;
+  border: none;
+}
+
+main .container .content .enter .q {
+  padding: 0.5em 0;
+}
+
+main .container .content .enter .q textarea {
+  width: 400px;
+  height: 60px;
+  padding: 0.5em;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+main .container .content .enter .a {
+  padding: 0.5em 0;
+}
+
+main .container .content .enter .a textarea {
+  width: 400px;
+  height: 100px;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+main .container .content .enter .match {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1em;
+}
+
+main .container .content .enter .match .matching {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container .content .enter .match .matching .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+main .container .content .enter .match .matching p {
+  font-size: 14px;
+  color: #999;
+  margin-left: 0.5em;
+}
+
+main .container .content .enter .submit button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background: #26a641;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+main .container .content .enter .submit button:active {
+  background: #39d353;
+}
+
+main .posts {
+  width: 100%;
+  padding: 2em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .posts .more {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #eee;
+}
+
+main .posts .more .more-infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50vw;
+}
+
+main .posts .more .more-infos .quest {
+  padding: 0 1em;
+  width: 50vw;
+  word-break: break-all;
+}
+
+main .posts .more .more-infos .quest h4 {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  color: #999;
+  padding: 0.5em 0 0 0;
+}
+
+main .posts .more .more-infos .ans {
+  padding: 0 1em;
+  width: 50vw;
+  word-break: break-all;
+}
+
+main .posts .more .more-infos .ans h4 {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  padding: 0.5em 0 0 0;
+  color: #999;
+}
+
+main .posts .more .more-infos .close button {
+  width: 80px;
+  height: 35px;
+  border-radius: 30px;
+  background: red;
+  color: #fff;
+  margin: 1em;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+main .posts .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .posts .post .post-title h1 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+}
+
+main .posts .post .post-title .search input {
+  width: 400px;
+  height: 40px;
+  padding: 0 0.5em;
+  font-size: 16px;
+  margin: 1em 0;
+  border-radius: 5px;
+}
+
+main .posts .post .not-found {
+  width: 100%;
+  padding: 13em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+main .posts .post .not-found h1 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  color: red;
+}
+
+main .posts .post-infos {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .posts .post-infos .infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .posts .post-infos .infos .item {
+  width: 400px;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+main .posts .post-infos .infos .item .name-date {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 0 1em 0;
+}
+
+main .posts .post-infos .infos .item .name-date p {
+  font-size: 16px;
+}
+
+main .posts .post-infos .infos .item .question h4 {
+  font-family: "Merriweather", serif;
+  color: #999;
+  font-size: 14px;
+}
+
+main .posts .post-infos .infos .item .question p {
+  font-size: 16px;
+}
+
+main .posts .post-infos .infos .item .answer h4 {
+  font-family: "Merriweather", serif;
+  font-size: 14px;
+  color: #999;
+}
+
+main .posts .post-infos .infos .item .answer p {
+  font-size: 16px;
+}
+
+main .posts .post-infos .infos .item .read-more button {
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  background: #26a641;
+  color: #fff;
+  border-radius: 30px;
+}
+
+main footer {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  background: #242526;
+}
+
+main footer a {
+  text-decoration: none;
+  color: #39a2db;
+}
+
+@media (max-width: 800px) {
+  main header {
+    padding: 0 1em;
+  }
+  main header .logo a h1 {
+    font-size: 20px;
+  }
+  main header .logo .theme {
+    margin: 0 1em;
+  }
+  main header .menu li {
+    padding: 0 0 0 1em;
+  }
+  main .posts .more {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main .posts .more .more-infos .quest {
+    width: 100vw;
+  }
+  main .posts .more .more-infos .ans {
+    width: 100vw;
+  }
+  main .posts .more .post .post-title .search input {
+    width: 90vw;
+  }
+  main .posts .more .post-infos {
+    padding: 0 0.5em;
+  }
+  main .posts .more .post-infos .infos .item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) and (max-width: 500px) {
+  main main header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    padding: 1em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  main main header .logo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main main header .logo .theme p {
+    margin-top: 1em;
+  }
+  main main header .menu {
+    padding-top: 1em;
+  }
+  main main header .menu li {
+    padding: 0 1em;
+  }
+  main main .container {
+    width: 100%;
+  }
+  main main .container .content {
+    width: 100%;
+    padding: 0 1em;
+  }
+  main main .container .content .enter .user .username {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  main main .container .content .enter .user .username input {
+    margin: 0 0 0.5em 0;
+  }
+  main main .container .content .enter .q textarea,
+  main main .container .content .enter .a textarea {
+    width: 90vw;
+  }
+}
+/*# sourceMappingURL=index.css.map */
